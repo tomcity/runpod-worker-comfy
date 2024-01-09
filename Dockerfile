@@ -40,7 +40,7 @@ RUN wget -O models/vae/sdxl-vae-fp16-fix.safetensors https://huggingface.co/made
 RUN wget -O models/loras/advertising-award-board.safetensors https://civitai.com/api/download/models/254250
 
 # Download custom nodes
-RUN git clone https://github.com/palant/image-resize-comfyui custom_nodes/image-resize-comfyui
+#RUN git clone https://github.com/palant/image-resize-comfyui custom_nodes/image-resize-comfyui
 
 # Example for adding specific models into image
 # ADD models/checkpoints/sd_xl_base_1.0.safetensors models/checkpoints/
